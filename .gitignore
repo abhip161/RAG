@@ -1,16 +1,33 @@
 # Python-generated files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*.pyo
+*.pyd
+
+# Build files
 build/
 dist/
-wheels/
-*.egg-info
+*.egg-info/
 
-# Virtual environments
-.venv
+# Virtual environment
+.venv/
 
-# ChromaDB
-notebook/data/
-data/vector_store/
-
+# Environment variables
 .env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Vector databases
+faiss_store/
+chroma_db/
+data/vector_store/
+notebook/data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
